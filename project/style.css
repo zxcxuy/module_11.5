@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nunito-sans-regular {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+body {
+    background-color: #131313;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin: 94px 8.75% 0px 8.75%;
+}
+.info_and_nav {
+    width: 442px;
+    position: relative;
+}
+.heading__text {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 136.6%;
+    letter-spacing: -2px;
+    width: 161px;
+}
+.description,
+.characteristic__item_value {
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+}
+.characteristics__item_name,
+.heading__text {
+    color: #e3b873;
+    text-transform: uppercase;
+    font-family: "Yeseva One", serif;
+}
+.heading {
+    display: flex;
+    width: 253px;
+    margin-top: 69.36px;
+    margin-bottom: 2rem;
+}
+#heading__stroke {
+    margin-top: 51.64px;
+}
+.description {
+    line-height: 191%;
+    font-size: 14px;
+}
+.characteristics {
+    margin-top: 2.5rem;
+    display: grid;
+    width: 442px;
+    grid-template-columns: 190px 1fr;
+    row-gap: 34px;
+}
+.characteristic__item_value {
+    font-size: 13px;
+    line-height: 163.7%;
+    margin-top: 9px;
+}
+.characteristics__item_name {
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav__footer {
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+.nav__footer_btn:hover {
+    fill-opacity: 0.7;
+}
+#left_arrow_nav {
+    margin-right: 1.9rem;
+}
+#right_arrow_nav {
+    margin-left: 1.9rem;
+}
+#center_circle_nav {
+    margin: auto 1.1rem;
+}
+.img_and_nav {
+    margin-left: 50px;
+}
+.header__nav {
+    display: flex;
+    gap: 60.5px;
+    list-style: none;
+    margin-bottom: 45.36px;
+}
+.header__nav_link {
+    padding-bottom: 0.45em;
+    font-family: "Yeseva One", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 138.6%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.header__nav_link:hover {
+    border-bottom: solid 1px #e3b873;
+}
+.active {
+    color: #e3b873;
+    border-bottom: solid 1px #e3b873;
+}
+.active:hover {
+    /* border: none; */
+    color: rgba(255, 255, 255, 0.3);
+}
+button {
+    background-color: #131313;
+    border: none;
+    cursor: pointer;
+}
